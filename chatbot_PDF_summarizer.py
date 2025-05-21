@@ -10,7 +10,7 @@ from langchain.chains import RetrievalQA
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 
 load_dotenv()
-os.environ["HUGGINGFACEHUB_API_TOKEN"] = "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"
+os.environ["HUGGINGFACEHUB_API_TOKEN"] = "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"
 
 # Function to read PDF and extract text
 def read_pdf(pdf_file):
